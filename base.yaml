@@ -13,6 +13,8 @@ wifi:
 
 captive_portal:
 
+improv_serial:
+
 api:
   reboot_timeout: 10min
 
