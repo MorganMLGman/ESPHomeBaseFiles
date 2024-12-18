@@ -11,6 +11,6 @@ esp8266:
     version: recommended
 
 packages: 
-  base:       !include ../base.yaml
-  diagnostic: !include diagnostic.yaml
-  web_server: !include web_server.yaml
+  base:       github://MorganMLGman/ESPHomeBaseFiles/base.yaml
+  diagnostic: github://MorganMLGman/ESPHomeBaseFiles/ESP8266/diagnostic.yaml
+  web_server: github://MorganMLGman/ESPHomeBaseFiles/ESP8266/web_server.yaml
