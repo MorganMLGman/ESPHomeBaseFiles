@@ -1,0 +1,16 @@
+logger:
+  level: DEBUG
+
+safe_mode:
+
+wifi:
+  reboot_timeout: 10min
+  ap:
+
+captive_portal:
+
+api:
+  reboot_timeout: 10min
+
+packages:
+  base_diagnostic: !include base_diagnostic.yaml
