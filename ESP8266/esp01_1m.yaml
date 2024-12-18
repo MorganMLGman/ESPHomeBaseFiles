@@ -11,6 +11,11 @@ esp8266:
     version: recommended
 
 packages: 
-  base:       github://MorganMLGman/ESPHomeBaseFiles/base.yaml
-  diagnostic: github://MorganMLGman/ESPHomeBaseFiles/ESP8266/diagnostic.yaml
-  web_server: github://MorganMLGman/ESPHomeBaseFiles/ESP8266/web_server.yaml
+  esp8266_package:
+    url: https://github.com/MorganMLGman/ESPHomeBaseFiles
+    files:
+      - base.yaml
+      - ESP8266/diagnostic.yaml
+      - ESP8266/web_server.yaml
+    ref: master
+    refresh: 1d

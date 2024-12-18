@@ -13,4 +13,9 @@ api:
   reboot_timeout: 10min
 
 packages:
-  base_diagnostic: github://MorganMLGman/ESPHomeBaseFiles/base_diagnostic.yaml
+  base_diagnostic: 
+    url: https://github.com/MorganMLGman/ESPHomeBaseFiles
+    files:
+      - base_diagnostic.yaml
+    ref: master
+    refresh: 1d
