@@ -1,3 +1,6 @@
+substitutions: 
+  ap_password: "123456789"
+
 logger:
   level: DEBUG
 
@@ -6,6 +9,7 @@ safe_mode:
 wifi:
   reboot_timeout: 10min
   ap:
+    password: ${ap_password}
 
 captive_portal:
 
