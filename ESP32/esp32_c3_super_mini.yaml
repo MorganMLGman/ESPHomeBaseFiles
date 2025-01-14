@@ -10,6 +10,8 @@ esp32:
   framework:
     type: esp-idf
     version: recommended
+    sdkconfig_options:
+      CONFIG_ESPTOOLPY_FLASHSIZE_4MB: y
 
 packages: 
   esp32_package:
