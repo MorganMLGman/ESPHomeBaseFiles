@@ -6,7 +6,6 @@ esphome:
 esp32:
   board: esp32dev
   variant: esp32c3 
-  early_pin_init: false
   framework:
     type: esp-idf
 
