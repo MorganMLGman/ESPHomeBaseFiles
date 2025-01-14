@@ -4,7 +4,7 @@ esphome:
   name_add_mac_suffix: True
 
 esp32:
-  board: seeed-xiao-esp32-c3
+  board: seeed-xiao-esp32c3
   variant: esp32c3 
   flash_size: 4MB
   framework:
