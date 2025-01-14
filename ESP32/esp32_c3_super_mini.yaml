@@ -4,7 +4,7 @@ esphome:
   name_add_mac_suffix: True
 
 esp32:
-  board: esp32dev
+  board: esp32-c3-devkitm-1
   variant: esp32c3 
   framework:
     type: esp-idf
