@@ -54,5 +54,5 @@ button:
     name: Safe Mode
 
   - platform: factory_reset
-    id: factory_reset_button
+    id: factory_reset_button_0
     name: Factory Reset
