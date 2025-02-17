@@ -18,6 +18,10 @@ text_sensor:
       name: WiFi BSSID
       entity_category: "diagnostic"
 
+# available in 2025.2.0
+  - platform: uptime
+    name: "Uptime"
+
 binary_sensor:
   - platform: status
     id: esp_status
