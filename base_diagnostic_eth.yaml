@@ -1,0 +1,44 @@
+time:
+  - platform: homeassistant
+    id: homeassistant_time
+
+text_sensor:
+  - platform: version
+    name: ESPHome Version
+    entity_category: "diagnostic"
+
+  - platform: ethernet_info
+    ip_address:      
+      entity_category: "diagnostic"
+      name: IP Address
+    dns_address:
+      entity_category: "diagnostic"
+      name: DNS Address
+    mac_address:
+      entity_category: "diagnostic"
+      name: MAC Address
+
+binary_sensor:
+  - platform: status
+    id: esp_status
+    name: Status
+    device_class: connectivity
+
+sensor:
+  - platform: uptime
+    name: Uptime
+    update_interval: 60s
+    accuracy_decimals: 0
+    icon: mdi:clock-outline
+    entity_category: "diagnostic"
+
+button:
+  - platform: restart
+    name: Restart
+  
+  - platform: safe_mode
+    name: Safe Mode
+
+  - platform: factory_reset
+    id: factory_reset_button_0
+    name: Factory Reset
