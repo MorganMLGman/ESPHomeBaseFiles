@@ -34,9 +34,11 @@ sensor:
 
 button:
   - platform: restart
+    id: restart_button_0
     name: Restart
   
   - platform: safe_mode
+    id: safe_mode_button_0
     name: Safe Mode
 
   - platform: factory_reset
