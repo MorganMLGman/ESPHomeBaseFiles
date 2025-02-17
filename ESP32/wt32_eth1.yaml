@@ -8,7 +8,7 @@ packages:
   wt32_package:
     url: https://github.com/MorganMLGman/ESPHomeBaseFiles
     files:
-      - base.yaml
+      - base_eth.yaml
       - ESP32/diagnostic.yaml
       - ESP32/web_server.yaml
     ref: master
