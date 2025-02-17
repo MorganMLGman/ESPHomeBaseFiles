@@ -1,0 +1,15 @@
+logger:
+  level: DEBUG
+
+api:
+  reboot_timeout: 10min
+
+safe_mode:
+
+packages:
+  base_diagnostic: 
+    url: https://github.com/MorganMLGman/ESPHomeBaseFiles
+    files:
+      - base_diagnostic_eth.yaml
+    ref: master
+    refresh: 3h
