@@ -1,0 +1,23 @@
+esp32:
+  board: esp32dev
+  framework:
+    type: esp-idf
+    version: recommended
+
+packages: 
+  wt32_package:
+    url: https://github.com/MorganMLGman/ESPHomeBaseFiles
+    files:
+      - base.yaml
+      - ESP32/diagnostic.yaml
+      - ESP32/web_server.yaml
+    ref: master
+    refresh: 3h
+
+ethernet:
+  type: LAN8720
+  mdc_pin: GPIO23
+  mdio_pin: GPIO18
+  clk_mode: GPIO0_IN
+  phy_addr: 1
+  power_pin: GPIO16
