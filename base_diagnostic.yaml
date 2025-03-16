@@ -60,3 +60,7 @@ button:
   - platform: factory_reset
     id: factory_reset_button_0
     name: Factory Reset
+
+  - platform: shutdown
+    id: shutdown_button
+    name: Shutdown
