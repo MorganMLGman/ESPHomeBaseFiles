@@ -10,9 +10,7 @@ wifi:
   reboot_timeout: 10min
   ap:
     password: ${ap_password}
-
-improv_serial:
-
+    
 api:
   reboot_timeout: 10min
 
