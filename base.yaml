@@ -11,8 +11,6 @@ wifi:
   ap:
     password: ${ap_password}
 
-captive_portal:
-
 improv_serial:
 
 api:
