@@ -1,1 +1,30 @@
+substitutions: 
+  ap_password: "123456789"
 
+logger:
+  level: DEBUG
+
+safe_mode:
+
+wifi:
+  reboot_timeout: 10min
+  ap:
+    password: ${ap_password}
+    
+api:
+  reboot_timeout: 10min
+
+button:
+  - platform: restart
+    name: Restart
+  
+  - platform: safe_mode
+    name: Safe Mode
+
+  - platform: factory_reset
+    id: factory_reset_button_0
+    name: Factory Reset
+
+  - platform: shutdown
+    id: shutdown_button
+    name: Shutdown
